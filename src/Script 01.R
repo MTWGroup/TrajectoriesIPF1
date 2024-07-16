@@ -1,31 +1,37 @@
 #Project: IPF new project
 #
 # Purpose: Profile project: verical data base with 7 visits
-# Version: Gisly imputs (Brompton)
+# Version: 3
 # Date: 12/04/2021
 # Author:  HPF
 #
 # Input: Main data base: PROFILE_compcsv_iain2020.csv
 #
 #
-# Output: consolidation of the database add ppFVC only Brompton
-#         patientid
+# Output: consolidation of the database H:Horizontal visits ppFVC (Vs1, Vs3, Vs4 column names)
+#         consolidation of the database V:vertical visits ppFVC (on rows)-colmuns patients   
+#         patientid: patient unique ID
 #         Site : Brompton
-#         visit_N
-#         visit_Idx
-#         TimeV1toVfinal
-#         visit_F
-#         d_gen
-#         d_dob
-#         DOD
-#         ageV1
-#         ageNow
-#         age
-#         Status
-#         DeadFromV1
-#         FVCna (true missing)
-#         incppFVF
-#Add: mising data from visits : 3&4
+#         visit_N : visit number from 1 to 7 (no visit 2)
+#         visit_Idx : visit index from 1 to 6 
+#         TimeV1toVfinal: time to censor or death
+#         visit_F: last visit in days 1095
+#         d_gen:(gender) male or female
+#         d_dob: date of birth
+#         DOD: date of death
+#         ageV1: age @ visit 1
+#         ageNow: seudo age at censor day
+#         age: age @ visit
+#         Status: survival status 1 dead 0 alive
+#         DeadFromV1: time to censor or death
+#         FVCna (true missing) 
+#         incppFVF: ppFVC to impute 
+# Add: missing data from visits : 3&4
+#      reformat dates
+#      check sources of missing  
+#      check patient status
+#      check visits
+#      check status times 
 #
 # Dependencies:@/F:PROFILE FINAL IMP SC 120421/Stage 1 Data Set
 #

@@ -1,7 +1,7 @@
 #Project: IPF new project
 #
 # Purpose: Profile project: verical data base with 7 visits
-# Version: Gisly imputs (Brompton)
+# Version: 2
 # Date: 12/06/2021
 # Author:  HPF
 #
