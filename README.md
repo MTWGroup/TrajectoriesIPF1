@@ -22,7 +22,10 @@ Error imputation calculation:
 ### Script 04
 Monte Carlo Markov Chain Monte-Carlo simulation (Naive)
 
-### Script 05 
+### Script 05A 
+Random Forest MCMC naive base imputation
+
+### Script 05B 
 Self Organizing Maps
 
 ### Script 06A
